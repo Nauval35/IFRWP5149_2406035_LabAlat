@@ -1,0 +1,31 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="ogrCJxl-1gR5QLtKweTQ">
+    <mxGraphModel dx="774" dy="531" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Dji0M1mcaKPz_yk2MW3b-1" edge="1" parent="1" source="Dji0M1mcaKPz_yk2MW3b-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Dji0M1mcaKPz_yk2MW3b-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dji0M1mcaKPz_yk2MW3b-2" parent="1" style="ellipse;fillColor=strokeColor;html=1;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="335" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="Dji0M1mcaKPz_yk2MW3b-3" edge="1" parent="1" source="Dji0M1mcaKPz_yk2MW3b-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Dji0M1mcaKPz_yk2MW3b-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dji0M1mcaKPz_yk2MW3b-4" parent="1" style="whiteSpace=wrap;html=1;" value="Buka daftar peralatan" vertex="1">
+          <mxGeometry height="60" width="120" x="290" y="325" as="geometry" />
+        </mxCell>
+        <mxCell id="Dji0M1mcaKPz_yk2MW3b-5" edge="1" parent="1" source="Dji0M1mcaKPz_yk2MW3b-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Dji0M1mcaKPz_yk2MW3b-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dji0M1mcaKPz_yk2MW3b-6" parent="1" style="whiteSpace=wrap;html=1;" value="Lihat informasi ketersediaan" vertex="1">
+          <mxGeometry height="60" width="120" x="290" y="465" as="geometry" />
+        </mxCell>
+        <mxCell id="Dji0M1mcaKPz_yk2MW3b-7" parent="1" style="ellipse;html=1;shape=endState;fillColor=strokeColor;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="335" y="570" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
