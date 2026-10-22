@@ -1,0 +1,15 @@
+## Review dan Revisi
+
+Berdasarkan hasil pemeriksaan diagram dan pengujian konsistensi, ditemukan beberapa bagian yang masih perlu diperbaiki agar model Sistem Informasi Akademik sesuai dengan ketentuan tugas.
+
+| No. | Temuan                                                                   | Perbaikan yang Disarankan                                                                                                              | Alasan                                                                         |
+| --- | ------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
+| 1   | Hubungan generalization antaraktor belum terlihat jelas.                 | Perjelas hubungan Mahasiswa dan Dosen dengan Civitas Akademika menggunakan garis utuh dan segitiga kosong yang mengarah ke aktor umum. | Generalization menunjukkan bahwa aktor khusus mewarisi fungsi dari aktor umum. |
+| 2   | Dosen memiliki hubungan dengan use case Ajukan KRS.                      | Hapus hubungan tersebut apabila Dosen terhubung dengan use case Ajukan KRS.                                                            | Pengajuan KRS merupakan tugas Mahasiswa, bukan Dosen.                          |
+| 3   | ID collaboration pada diagram berbeda dari yang tercantum dalam katalog. | Sesuaikan ID menjadi SIA-CO01 untuk Input Nilai Mata Kuliah dan SIA-CO02 untuk Lihat KHS.                                              | Kesamaan ID diperlukan agar dokumentasi dan diagram tetap konsisten.           |
+| 4   | Penggunaan notasi collaboration belum dipastikan sesuai.                 | Periksa dan sesuaikan simbol serta hubungan collaboration dengan contoh yang terdapat pada modul.                                      | Penggunaan notasi harus mengikuti ketentuan pemodelan dalam tugas.             |
+| 5   | Beberapa aktor terlalu dekat atau menyentuh batas sistem.                | Atur kembali posisi aktor agar berada di luar batas sistem, serta rapikan garis asosiasinya.                                           | Aktor merupakan pihak dari luar sistem yang berinteraksi dengan sistem.        |
+
+## Kesimpulan
+
+Berdasarkan pengujian terhadap tiga situasi, model Sistem Informasi Akademik sudah dapat menggambarkan aturan akses dan pengelolaan data sesuai dengan skenario yang ditentukan. Meskipun demikian, masih diperlukan beberapa perbaikan pada diagram, terutama pada hubungan generalization antaraktor, asosiasi aktor dengan use case, kesesuaian ID collaboration, dan penggunaan notasi collaboration. Setelah seluruh perbaikan dilakukan, diagram dan deskripsi use case perlu disimpan sebagai versi revisi agar hasil akhirnya lebih rapi dan konsisten.
